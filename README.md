@@ -43,9 +43,9 @@ To run the game entirely in the command line use the command:
     java -jar target\MinipolyGame-cli.jar
 
 
-<!-- ## Known Bugs
+## Known Issues
 
-- In many  places where there is a `£` symbol, it has been corrupted and become `Â£` in both the CLI and GUI versions of the game, however this does not affect gameplay.-->
+- Depending on the platform you are using, the GUI version may display differently, with the buttons and outer padding of the game board not displaying properly 
 
 
 ## Built With
