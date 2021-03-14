@@ -1,6 +1,6 @@
 # Minipoly
 
-A simplified version of the popular Monopoly board game with both a CLI version and a GUI version using JavaFX.
+A simplified version of the popular Monopoly board game that can be played using either the CLI or a GUI using JavaFX.
 
 
 ## Getting Started
