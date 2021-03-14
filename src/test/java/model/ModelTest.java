@@ -181,7 +181,7 @@ public class ModelTest {
         Model instance = new Model();
         System.out.println(instance.nextTurn(1));
 
-        String expResult = "A1 has been bought by [P1] for £50.00";
+        String expResult = "A1 has been bought by [P1] for \u00a350.00";
         String result = instance.interactCurrentPrpt();
 
         assertEquals(expResult, result);
@@ -213,7 +213,7 @@ public class ModelTest {
         Model instance = new Model();
         testInteractCurrentPrptImproveSetUp(instance);
 
-        String expResult = "[P1] pays £35.00 to build a house at the property.";
+        String expResult = "[P1] pays \u00a335.00 to build a house at the property.";
         String result = instance.interactCurrentPrpt();
 
         assertEquals(expResult, result);
@@ -238,7 +238,7 @@ public class ModelTest {
         System.out.println(instance.interactCurrentPrpt());
         System.out.println(instance.interactCurrentPrpt());
 
-        String expResult = "[P1] pays £56.00 to build a hotel at the property.";
+        String expResult = "[P1] pays \u00a356.00 to build a hotel at the property.";
         String result = instance.interactCurrentPrpt();
 
         assertEquals(expResult, result);
