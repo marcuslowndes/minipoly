@@ -36,11 +36,11 @@ There are unit tests on the core of the program that can be run using:
 
 To run the game with a GUI, run the command below.
 
-    java -jar target\minpoly-gui.jar
+    java -jar target\MinipolyGame-gui.jar
 
 To run the game entirely in the command line use the command:
 
-    java -jar target\minpoly-cli.jar
+    java -jar target\MinipolyGame-cli.jar
 
 
 <!-- ## Known Bugs
