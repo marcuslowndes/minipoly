@@ -122,7 +122,7 @@ public class Position {
         buyer.addProperty(this);
 
         return "" + nameToString() + " has been bought by " + buyer.toString()
-                + " for £" + String.valueOf(price) + "0";
+                + " for \u00a3" + String.valueOf(price) + "0";
     }
 
 
@@ -166,7 +166,7 @@ public class Position {
 
         assert (!(improvements > 4)) : "Improvements cannot advance beyond 4.";
 
-        return improver.toString() + " pays £" + String.valueOf(cost)
+        return improver.toString() + " pays \u00a3" + String.valueOf(cost)
                 + "0 to build a " + posnType + " at the property.";
     }
 
@@ -186,7 +186,7 @@ public class Position {
 
         String s = String.valueOf(number) + ":\t " + nameToString();
         if (property)
-            return s + "\t£" + String.valueOf(price) + "0\t" + o + "\t" + i;
+            return s + "\t\u00a3" + String.valueOf(price) + "0\t" + o + "\t" + i;
         else if (number == 1 || number == 21)
             return s + "\t\t\t";
         else

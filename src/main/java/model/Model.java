@@ -258,7 +258,7 @@ public class Model extends Observable {
 
         return "\nThis position is owned by " + posn.getOwner().toString()
                 + ", therefore " + currentPlayer.toString()
-                + " is\ncharged £" + String.valueOf(rent) + "0 in rent.";
+                + " is\ncharged \u00a3" + String.valueOf(rent) + "0 in rent.";
     }
 
 
