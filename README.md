@@ -7,7 +7,7 @@ Originally created between February and June 2020, without any VCS.
 
 ## Rules of the game
 
-There are two players. During a player's turn they may roll a die and move their counter. If they land on a property space, that player may purchase the property. When each property on a road has been purchased by the same player, that player can then purchase improvements on that property. Rent is payed by any player who lands on their opponent's property, to the opponent. The first player to run out of money loses the game.
+There are two players. During a player's turn they may roll a die and move their counter. If they land on a property space, that player may purchase the property. When each property on a road has been purchased by the same player, that player can then purchase improvements on that property. Rent is payed to their opponent by any player who lands on their opponent's property. The first player to run out of money loses the game.
 
 
 ## Getting Started
