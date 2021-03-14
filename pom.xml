@@ -29,8 +29,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>view.View</mainClass>
                     <mainClass>CLIMain</mainClass>
+                    <mainClass>view.View</mainClass>
                 </configuration>
             </plugin>
 
