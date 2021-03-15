@@ -33,7 +33,6 @@ There are unit tests on the core of the program that can be run using:
 
 ## Play
 
-
 To run the game with a GUI, run the command below.
 
     java -jar target\MinipolyGame-gui.jar
