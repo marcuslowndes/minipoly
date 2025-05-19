@@ -2,7 +2,7 @@
 
 A simplified version of the popular Monopoly board game that can be played using either the CLI or a GUI using JavaFX.
 
-Originally created between February and June 2020, without any VCS.
+Originally created between February and June 2020, without any version control.
 
 
 ## Rules of the game
